@@ -1,0 +1,17 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "launch": {
+        "configurations": [
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Launch Program",
+                "program": "${file}"
+            }
+        ],
+        "compounds": []
+    }
+}
